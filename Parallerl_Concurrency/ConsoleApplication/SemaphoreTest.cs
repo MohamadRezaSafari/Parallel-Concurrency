@@ -53,7 +53,7 @@ namespace ConsoleApplication
             Console.WriteLine("{0} begins!", Thread.CurrentThread.Name);
             Thread.Sleep(1000);
             Console.WriteLine("{0} releasing...", Thread.CurrentThread.Name);
-
+            
             semaphore.Release();
         }
 
